@@ -1,0 +1,88 @@
+.weather-container {
+    font-family: 'Segoe UI', sans-serif;
+    text-align: center;
+    padding: 2rem;
+    min-height: 100vh;
+    background-image: url('https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1350&q=80');
+    background-size: cover;
+    background-position: center;
+    color: white;
+  }
+  
+  
+  
+  .title {
+    font-size: 2.5rem;
+    margin-bottom: 1.5rem;
+    color: #00aaff; /* Blue color */
+    font-weight: bold;
+  }
+  
+   
+  
+  
+  .search input {
+    padding: 0.75rem;
+    font-size: 1rem;
+    width: 250px;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+    margin-right: 0.5rem;
+  }
+  
+  .search button {
+    padding: 0.75rem 1.5rem;
+    font-size: 1rem;
+    background-color: #5e9eff;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+  }
+  
+  .weather-card {
+    margin-top: 2rem;
+    padding: 2rem;
+    background: rgba(0, 0, 0, 0.5); /* Transparent black */
+    backdrop-filter: blur(8px);
+    border-radius: 20px;
+    display: inline-block;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
+    color: #fff; /* White text */
+  }
+  
+  
+  
+  
+  
+  .weather-card img {
+    width: 100px;
+    height: 100px;
+  }
+  
+  .weather-card h2 {
+    font-size: 1.8rem;
+    margin: 0.5rem 0;
+  }
+  
+  .weather-card h3 {
+    font-size: 1.6rem;
+    margin: 0.5rem 0;
+  }
+  
+  .description {
+    font-size: 1.2rem;
+    text-transform: capitalize;
+    font-weight: 500;
+  }
+  
+  .status {
+    margin-top: 1rem;
+    font-weight: bold;
+    font-size: 1rem;
+  }
+  
+  .error {
+    color: red;
+  }
+   
